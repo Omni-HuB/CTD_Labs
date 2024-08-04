@@ -1,0 +1,26 @@
+Circuit: * D:\IIITD\CTD_Labs\LAB_3_Filters\LC_filter2_withRectifier.asc
+
+WARNING: Node NC_03 is floating.
+
+WARNING: Less than two connections to node NC_01.  This node is used by D3.
+WARNING: Less than two connections to node NC_02.  This node is used by R3.
+WARNING: Less than two connections to node NC_03.  This node is used by R3.
+.OP point found by inspection.
+
+Date: Thu Oct 14 22:50:25 2021
+Total elapsed time: 0.803 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 383447
+traniter = 383447
+tranpoints = 150495
+accept = 107048
+rejected = 43447
+matrix size = 15
+fillins = 2
+solver = Normal
+Matrix Compiler1: 694 bytes object code size  0.2/0.1/[0.1]
+Matrix Compiler2: 1.03 KB object code size  0.1/0.2/[0.1]
+

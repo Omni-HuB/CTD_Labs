@@ -1,0 +1,5 @@
+Stray ".ends" card: .ends
+Circuit: .SUBCKT UA7805C Input Output Ground
+
+Fatal Error: Unknown subcircuit called in:
+   x1 input output ground x_lm78xx   av_feedback=1665, r1_value=1020

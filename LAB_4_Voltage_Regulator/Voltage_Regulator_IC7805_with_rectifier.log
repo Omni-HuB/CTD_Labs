@@ -1,0 +1,65 @@
+Circuit: * D:\IIITD\CTD_Labs\LAB_4_Voltage_Regulator\Voltage_Regulator_IC7805_with_rectifier.asc
+
+u1:dbl: Activation energy, Eg=0, too small, limited to 0.1
+Direct Newton iteration for .op point succeeded.
+Semiconductor Device Operating Points:
+                        --- Diodes ---
+Name:   d:u1:dis    d:u1:zfb     d:u1:cl     d:u1:c      d:u1:bl
+Model:   u1:dmod     u1:dzfb     u1:dcl       u1:dc      u1:dbl
+Id:     -4.42e-17   -6.64e-16   -5.64e-07    1.36e-12    5.64e-07
+Vd:     -2.85e-05   -4.80e-04   -2.93e-04    1.99e-01    1.46e-04
+Req:     6.45e+11    7.25e+11    5.20e+02    3.44e+10    2.57e+02
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:    d:u1:c+     d:u1:c-     d:u1:r      d:u1:z1       d4
+Model:  u1:dclamp   u1:dclamp     u1:dr      u1:dz1       1n914
+Id:      1.14e-02    5.41e-10    4.66e-23    3.36e-17   -6.74e-13
+Vd:      7.18e-01    2.82e-01    3.36e-11    2.42e-05   -1.21e-05
+Req:     2.26e+00    4.78e+07    7.21e+11    7.21e+11    1.80e+07
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    4.00e-12
+
+Name:      d3          d2          d1
+Model:    1n914       1n914       1n914
+Id:     -6.74e-13   -6.74e-13   -6.74e-13
+Vd:     -1.21e-05   -1.21e-05   -1.21e-05
+Req:     1.80e+07    1.80e+07    1.80e+07
+CAP:     4.00e-12    4.00e-12    4.00e-12
+
+                        --- Bipolar Transistors ---
+Name:     q:u1:cl     q:u1:p
+Model:   u1:qlimit     u1:qp
+Ib:       2.82e-07   -1.93e-12
+Ic:      -5.64e-07    1.36e-12
+Vbe:     -4.52e-04   -5.64e-01
+Vbc:      5.63e-01   -3.64e-01
+Vce:     -5.63e-01   -1.99e-01
+BetaDC:  -2.00e+00   -7.08e-01
+Gm:      -1.09e-05   -2.96e-17
+Rpi:      1.00e+12    1.00e+12
+Rx:       0.00e+00    0.00e+00
+Ro:       9.17e+04    3.37e+16
+Cbe:      0.00e+00    0.00e+00
+Cbc:      0.00e+00    0.00e+00
+Cjs:      0.00e+00    0.00e+00
+BetaAC:  -1.09e+07   -2.96e-05
+Cbx:      0.00e+00    0.00e+00
+Ft:       0.00e+00    0.00e+00
+
+
+
+Date: Thu Oct 21 23:43:58 2021
+Total elapsed time: 0.962 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 32
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 37
+fillins = 43
+solver = Normal
+Matrix Compiler1: 4.16 KB object code size
+Matrix Compiler2: 3.51 KB object code size
